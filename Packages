@@ -1,0 +1,35 @@
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 244
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/backgrounderAction2.deb
+Size: 256192
+MD5sum: cd380d0ab08f71440f055300b206f055
+SHA1: 04c47e26a16cd94e65bbc55002afb1f6283bb768
+SHA256: c02dac2bb0067425ce90d851b9d581363f5f1ecbe3045d1ae4e9e691c3a608ee
+Section: Tweaks
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://guofenpai.github.io/repo/depictions/github.io.gfp.backgrounderaction13/
+Icon: https://guofenpai.github.io/repo/DebIcon.png
+Name: BackgrounderAction2 for CCSupport
+
+Package: vip.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: vip
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/vip.rootless_1.0.0_iphoneos-arm64.deb
+Size: 79084
+MD5sum: e1b89ef17d92be7b1f81886791fb9554
+SHA1: b3897e53fd8b2187f7b24e579651a1693e3fcd37
+SHA256: 3ae3db62295da223d1e1148481ba03ea922d9455ffd770cf4b1668b84a524e75
+Section: 私人定制
+Description: 会员
+Author: trizau
+Name: 私人定制虚拟摄像头-Rootless
+Sponsor: 私人定制
+
