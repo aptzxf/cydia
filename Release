@@ -1,0 +1,7 @@
+Origin: ZhouXiaoFeng's Repo
+Label: 土匪私人源
+Suite: stable
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: My Personal Cydia Repository
