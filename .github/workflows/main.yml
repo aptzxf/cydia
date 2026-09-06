@@ -1,4 +1,6 @@
 name: Build Cydia Repo
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
