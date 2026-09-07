@@ -14,6 +14,22 @@ Section: 依赖
 Author: Ryan Petrich <rpetrich@gmail.com>
 Name: AppList
 
+Package: com.0xkuj.3dappversionspoofer
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: 0xkuj
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: debs/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm.deb
+Size: 60042
+MD5sum: e5d7c4ccbd2e23317a92f7f793f5064a
+SHA1: 256134c572a46b06ecf18889f62c3ef057febd99
+SHA256: 83f44b21e87ee8c25410f9f8de89e9c00be14662141e09d65476491330de4fc3
+Section: Tweaks
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Author: 0xkuj
+Name: 3DAppVersionSpoofer
+
 Package: com.brend0n.accdemo
 Version: 0.2.5
 Architecture: iphoneos-arm
