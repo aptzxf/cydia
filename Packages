@@ -14,25 +14,6 @@ Section: 依赖
 Author: Ryan Petrich <rpetrich@gmail.com>
 Name: AppList
 
-Package: apt.cydiakk.shadow
-Version: 3.7.3
-Architecture: iphoneos-arm
-Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
-Installed-Size: 1432
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Filename: debs/apt.cydiakk.shadow_3.7.3_iphoneos-arm.deb
-Size: 163682
-MD5sum: 1503a096ae574e642bc6c2c8432ab621
-SHA1: 9605aa9998b2d1176c5d5a5815a7667d56cf7560
-SHA256: 4684a876ba4a40faab304cb92440e21d346db22c2d33977fde5bf61b6b4d8a27
-Section: 插件
-Description: 屏蔽app对越狱的检测
-Author: jjolano
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: Shadow「屏蔽越狱检测」
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
-
 Package: com.brend0n.accdemo
 Version: 0.2.5
 Architecture: iphoneos-arm
@@ -238,28 +219,6 @@ SHA1: 2378f837f1501ffe6177f925da170efebf09d53d
 SHA256: c974b31167c9f977f4b3fb1f766c2c9b6add19d4de315fa4744a273481cb8300
 Section: Tweaks
 Description: A lightweight general jailbreak detection bypass.
-Author: jjolano
-Name: Shadow
-
-Package: me.jjolano.shadow
-Version: 3.7.5
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Installed-Size: 1080
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
-Replaces: me.jjolano.shadow.beta
-Provides: me.jjolano.shadow.beta
-Filename: debs/me.jjolano.shadow_3.7.5_iphoneos-arm64.deb
-Size: 100466
-MD5sum: bdd3a2fabde2f5361ef15b2fed5b1025
-SHA1: f46dbd21a5d92171f7d5133c575ac2aa75341222
-SHA256: e162945f37aae6925b14cd5ea902a196e9f390f4cf81cfd15106db92508d5102
-Section: System
-Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
 
