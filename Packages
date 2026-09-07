@@ -302,23 +302,6 @@ Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
 
-Package: vip.rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: vip
-Installed-Size: 288
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/vip.rootless_1.0.0_iphoneos-arm64.deb
-Size: 79084
-MD5sum: e1b89ef17d92be7b1f81886791fb9554
-SHA1: b3897e53fd8b2187f7b24e579651a1693e3fcd37
-SHA256: 3ae3db62295da223d1e1148481ba03ea922d9455ffd770cf4b1668b84a524e75
-Section: 私人定制
-Description: 会员
-Author: trizau
-Name: 私人定制虚拟摄像头-Rootless
-Sponsor: 私人定制
-
 Package: ws.hbang.common
 Version: 1.17.1
 Architecture: iphoneos-arm
