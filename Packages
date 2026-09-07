@@ -178,26 +178,6 @@ Depiction: https://guofenpai.github.io/repo/depictions/github.io.gfp.backgrounde
 Icon: https://guofenpai.github.io/repo/DebIcon.png
 Name: BackgrounderAction2 for CCSupport
 
-Package: me.jjolano.fmwk.hookkit
-Version: 2.5.1-1
-Architecture: iphoneos-arm64e
-Maintainer: jjolano
-Installed-Size: 17316
-Depends: firmware (>= 15.0), firmware (<< 18.0)
-Conflicts: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
-Replaces: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
-Provides: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate
-Filename: debs/me.jjolano.fmwk.hookkit_2.5.1-1_iphoneos-arm64e.deb
-Size: 1907566
-MD5sum: 47031b8b79d71dd43342cee0b9dbb106
-SHA1: e4df8084749214b701f5bf1bbb1e005733517cfa
-SHA256: c69eb6bb239ac37e7e8711999335fbec4237fc44d448b3162a0f7614b1ab67c7
-Section: Development
-Description: An iOS developer framework for unified hooking methods.
-Tag: role::developer
-Author: jjolano
-Name: HookKit Framework (RootHide)
-
 Package: me.jjolano.fmwk.modulous
 Version: 1.0.8
 Architecture: iphoneos-arm
