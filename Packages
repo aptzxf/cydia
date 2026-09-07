@@ -252,23 +252,6 @@ Tag: role::developer
 Author: jjolano <jjolano@me.com>
 Name: HookKit Framework
 
-Package: me.jjolano.fmwk.hookkit.gum
-Version: 3.0.2-1
-Architecture: iphoneos-arm64
-Maintainer: jjolano <jjolano@me.com>
-Installed-Size: 16940
-Depends: me.jjolano.fmwk.hookkit (= 3.0.2-1), firmware (>= 15.0)
-Filename: debs/hookkit-rootless-gum.deb
-Size: 1844280
-MD5sum: 4e0c988b70ecbe2d90e1dd0237358d89
-SHA1: b1a4acb409af3951b9726637865f30e61e98209f
-SHA256: dba85a054b0fd42d57a6be1406df7296546aec57e045dc4b85b658abaa198150
-Section: Development
-Description: Optional Frida Gum provider for HookKit.
-Tag: role::developer
-Author: jjolano <jjolano@me.com>
-Name: HookKit Frida Gum Provider
-
 Package: me.jjolano.fmwk.modulous
 Version: 1.0.8
 Architecture: iphoneos-arm
