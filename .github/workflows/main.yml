@@ -19,16 +19,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y dpkg-dev
 
-      - name: Debug 查看目录
-        run: |
-          ls -la
-          ls -la debs/ || echo "!!! debs文件夹不存在 !!!"
-
       - name: Generate APT Packages index
         run: |
-          dpkg-scanpackages --multiversion debs /dev/null > Packages
+          sudo dpkg-scanpackages --multiversion debs /dev/null > Packages
           gzip -9c Packages > Packages.gz
-          ls -la Packages Packages.gz
 
       - name: Commit and Push
         env:
@@ -37,7 +31,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Packages Packages.gz
-          git status
           if git diff --cached --quiet; then
             echo "No changes to Packages index."
             exit 0
