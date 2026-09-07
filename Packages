@@ -152,6 +152,27 @@ Dev: opa334
 Name: AltList
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 256
+Depends: firmware (>= 7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26942
+MD5sum: 4b20028127ee97b886d5a6463997af7a
+SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
+SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Description: A modern AppList alternative
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Dev: opa334
+Name: AltList
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.opa334.ccsupport
 Version: 1.3.13-2
 Architecture: iphoneos-arm
@@ -198,6 +219,47 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 416
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18296
+MD5sum: 1eac344c72efdaab36ac5a47ec5274f3
+SHA1: 32112333b13618e680234cc5b4f4b2b37aa6d33d
+SHA256: 5af8fdadfdb24e90929dc20031bd8e5d96f8c4e8b9f074977d8d10180e7827d7
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: ellekit
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.2_iphoneos-arm64.deb
+Size: 331444
+MD5sum: 08cc1616ce6387b573c7c9fd21ed5cf9
+SHA1: bd232da8335cd9e2dc5d4911d99bd99d0331b279
+SHA256: e21dc91bdc1be193dc915daecfff45256239b4fe583a36861e662ab1f43906dc
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: ElleKit Team
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: jp.akusio.backgrounderaction13
 Version: 0.1.4
 Architecture: iphoneos-arm
@@ -233,6 +295,40 @@ Tag: role::developer
 Author: jjolano
 Name: HookKit Framework
 
+Package: me.jjolano.fmwk.hookkit
+Version: 1.0.15
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 172
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm64.deb
+Size: 12766
+MD5sum: e690a51b39d9d1b1649290ac4497ed30
+SHA1: fa9ac80441144ef4b2421c19a09d66b5185ae955
+SHA256: eb54eb4901f28f39ec9564be9b37cf893e928a9223d1a5c55bbe0018ae25b5ce
+Section: Development
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Author: jjolano
+Name: HookKit Framework
+
+Package: me.jjolano.fmwk.modulous
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64.deb
+Size: 5908
+MD5sum: be3e1e00ef1270e30de6f0b5933af9e8
+SHA1: e91235a0042fe54197170090d2bbdadc7ad68ed8
+SHA256: a26df304e309c96c3d6e120d46f2d056f90d3d263588cbc422dd0b83d7f4d6f4
+Section: Development
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Author: jjolano
+Name: Modulous Framework
+
 Package: me.jjolano.fmwk.modulous
 Version: 1.0.8
 Architecture: iphoneos-arm
@@ -252,6 +348,23 @@ Name: Modulous Framework
 
 Package: me.jjolano.fmwk.rootbridge
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64.deb
+Size: 3806
+MD5sum: 19db35ce72d9e55c03313acbabeb7a33
+SHA1: 7c1fbeee2a6157f89e1c7c9f91f4367e76743054
+SHA256: f62edb02a1edd921c132a5fa119062e3da5e3d4dd73a892f3e33b18067fc0c9e
+Section: Development
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Author: jjolano
+Name: RootBridge Framework
+
+Package: me.jjolano.fmwk.rootbridge
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 280
@@ -267,6 +380,24 @@ Tag: role::developer
 Author: jjolano
 Name: RootBridge Framework
 
+Package: me.jjolano.hkmodule.fishhook
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 172
+Pre-Depends: me.jjolano.fmwk.hookkit
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.7_iphoneos-arm64.deb
+Size: 6466
+MD5sum: 0c00e5592518ba2f6f8e848665ddb0f5
+SHA1: 894ef38ad5c88cb658a51b4cf7233535a081abd9
+SHA256: 75e950beb402115392c51e39f651f1c1bcce3a84373ef706effcfc3a9ac98ed5
+Section: 插件依赖
+Description: This module provides fishhook library support for HookKit Framework.
+Author: jjolano
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: HookKit Module (fishhook)屏蔽越狱插件依赖
+Sponsor: 搬运工
+
 Package: me.jjolano.hkmodule.substrate
 Version: 1.0.8
 Architecture: iphoneos-arm
@@ -279,6 +410,23 @@ Size: 5806
 MD5sum: 2ed9fc5a3064fea97078a4b8a8b712a8
 SHA1: 9ad57d5cb56e5afd0ee89833c999b3846165c0ef
 SHA256: dceca38abeae52c86a340be72805dc652884dd461169211ef84551a5d7858cce
+Section: HookKit (Modules)
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Author: jjolano
+Name: HookKit Module (Cydia Substrate)
+
+Package: me.jjolano.hkmodule.substrate
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 168
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm64.deb
+Size: 3844
+MD5sum: 4713528b9cfb967636b2d81287d2c63f
+SHA1: c93a733e34ef8cbe63bceac05716d6e0dbbf8deb
+SHA256: 34704fc5e2a7a5a90967e09ce4caacea3a0b290e11baeb7c094aabbbaab250a9
 Section: HookKit (Modules)
 Description: This module provides the Cydia Substrate API for HookKit Framework.
 Author: jjolano
@@ -343,6 +491,26 @@ Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
+
+Package: preferenceloader
+Version: 2.2.8
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/preferenceloader_2.2.8_iphoneos-arm64.deb
+Size: 19202
+MD5sum: a7c35259aeb9dd584ca61c6bfd4774b2
+SHA1: dc3c9e769f3ca77af8a4daa1ef0b5ce0154d2cde
+SHA256: b8b934b4c1d2da649044997f01b7bf995afbdb732e653b2b35368deb354e1882
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dhinak G <dhinak@dhinak.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dhinakg
+Name: PreferenceLoader
 
 Package: ws.hbang.common
 Version: 1.17.1
