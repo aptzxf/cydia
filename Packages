@@ -180,26 +180,6 @@ Name: BackgrounderAction2 for CCSupport
 
 Package: me.jjolano.fmwk.hookkit
 Version: 2.5.1-1
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Installed-Size: 17316
-Depends: firmware (>= 15.0)
-Conflicts: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
-Replaces: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.hookkit.legacy
-Provides: me.jjolano.hkmodule.dobby, me.jjolano.hkmodule.ellekit, me.jjolano.hkmodule.fishhook, me.jjolano.hkmodule.libhooker, me.jjolano.hkmodule.substitute, me.jjolano.hkmodule.substrate
-Filename: debs/me.jjolano.fmwk.hookkit_2.5.1-1_iphoneos-arm64.deb
-Size: 1908402
-MD5sum: 62274714ed25f9cc26bec9ca2c966b5f
-SHA1: 55312fa2a68d9bc2f88d85eec30ed737eaac1e0e
-SHA256: a18bc22f2887372e004e7387532cd5c90357d4b68bb24cbde13c5ce79bee1256
-Section: Development
-Description: An iOS developer framework for unified hooking methods.
-Tag: role::developer
-Author: jjolano
-Name: HookKit Framework (Rootless)
-
-Package: me.jjolano.fmwk.hookkit
-Version: 2.5.1-1
 Architecture: iphoneos-arm64e
 Maintainer: jjolano
 Installed-Size: 17316
