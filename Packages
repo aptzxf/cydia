@@ -241,6 +241,50 @@ Description: A lightweight general jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
 
+Package: me.jjolano.shadow
+Version: 3.7.5
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 1080
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_3.7.5_iphoneos-arm64.deb
+Size: 100466
+MD5sum: bdd3a2fabde2f5361ef15b2fed5b1025
+SHA1: f46dbd21a5d92171f7d5133c575ac2aa75341222
+SHA256: e162945f37aae6925b14cd5ea902a196e9f390f4cf81cfd15106db92508d5102
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
+Package: me.jjolano.shadow
+Version: 3.7.5
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 1432
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_3.7.5_iphoneos-arm.deb
+Size: 165076
+MD5sum: 312672c272706c65b7501f966523e6c8
+SHA1: ceeb3d5f62657c41cb9c84be8e9af8fec401a9af
+SHA256: df2e8746830196433ea7641f2fa3840e9bc652d8d9c6bb320284e1c429d5dcd5
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
 Package: vip.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
