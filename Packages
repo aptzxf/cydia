@@ -157,6 +157,74 @@ Depiction: https://guofenpai.github.io/repo/depictions/github.io.gfp.backgrounde
 Icon: https://guofenpai.github.io/repo/DebIcon.png
 Name: BackgrounderAction2 for CCSupport
 
+Package: me.jjolano.fmwk.modulous
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 280
+Depends: firmware (>= 8.0)
+Filename: debs/debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm.deb
+Size: 10154
+MD5sum: ef622a803a599d116d2cd4c44c3d7b84
+SHA1: 610853a3db02a5d6a4331c8bb46716e073fe1ddd
+SHA256: c60d201ee39e9e5d0f7e3a827adb53a2e3d01cfc6945fb138738eb7a1391e4db
+Section: Development
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Author: jjolano
+Name: Modulous Framework
+
+Package: me.jjolano.fmwk.rootbridge
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 280
+Depends: firmware (>= 8.0)
+Filename: debs/debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm.deb
+Size: 5942
+MD5sum: 55a048eb33aafb6f3a7b792b7184d904
+SHA1: b778d0065f8f6ed6c9abff8838190d3df9824b04
+SHA256: 0bec075deff352772f5d24098835f746e89e9b5a2392d0f7e699dd5d0f48ebae
+Section: Development
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Author: jjolano
+Name: RootBridge Framework
+
+Package: me.jjolano.fmwk.rootbridge1
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 280
+Depends: firmware (>= 8.0)
+Filename: debs/debs/me.jjolano.fmwk.rootbridge1_1.0.2_iphoneos-arm.deb
+Size: 5952
+MD5sum: 72296d41ce5797cb0990c00c5de84106
+SHA1: 13a16de28944d5294d60e3cd286154dd8234514f
+SHA256: 00990d802916d1e1d748671fc003ae9843391a5a42634eb337d983067c6bc7e5
+Section: Development
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Author: jjolano
+Name: RootBridge Framework
+
+Package: me.jjolano.hkmodule.substrate
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 284
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: debs/debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm.deb
+Size: 5806
+MD5sum: 2ed9fc5a3064fea97078a4b8a8b712a8
+SHA1: 9ad57d5cb56e5afd0ee89833c999b3846165c0ef
+SHA256: dceca38abeae52c86a340be72805dc652884dd461169211ef84551a5d7858cce
+Section: HookKit (Modules)
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Author: jjolano
+Name: HookKit Module (Cydia Substrate)
+
 Package: me.jjolano.shadow
 Version: 2.0.20
 Architecture: iphoneos-arm
