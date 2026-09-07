@@ -191,23 +191,6 @@ Tag: role::developer
 Author: jjolano
 Name: RootBridge Framework
 
-Package: me.jjolano.fmwk.rootbridge1
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: jjolano
-Installed-Size: 280
-Depends: firmware (>= 8.0)
-Filename: debs/me.jjolano.fmwk.rootbridge1_1.0.2_iphoneos-arm.deb
-Size: 5952
-MD5sum: 72296d41ce5797cb0990c00c5de84106
-SHA1: 13a16de28944d5294d60e3cd286154dd8234514f
-SHA256: 00990d802916d1e1d748671fc003ae9843391a5a42634eb337d983067c6bc7e5
-Section: Development
-Description: An iOS developer framework for rootless tweak development.
-Tag: role::developer
-Author: jjolano
-Name: RootBridge Framework
-
 Package: me.jjolano.hkmodule.substrate
 Version: 1.0.8
 Architecture: iphoneos-arm
