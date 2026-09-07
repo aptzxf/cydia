@@ -156,6 +156,25 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: ellekit
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.2_iphoneos-arm.deb
+Size: 330208
+MD5sum: 4e171bcc1cf53e997ae54a335bd41ed0
+SHA1: 485e6c42ea3dcb1243eeb1ebb4eeefbd3efc640d
+SHA256: 3ae1e48245c947fb4f6011a89ecf9d19c89832dda76c5af0350c95d2f123ef93
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: ElleKit Team
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: jp.akusio.backgrounderaction13
 Version: 0.1.4
 Architecture: iphoneos-arm
