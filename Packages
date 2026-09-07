@@ -56,6 +56,25 @@ Section: 依赖
 Author: Ryan Petrich <rpetrich@gmail.com>
 Name: AppList
 
+Package: apt.cydiakk.appstore++
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: Cydiakk中文源™ <admin@cydiakk.com>
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: debs/apt.cydiakk.appstore++_0.10.1-5_iphoneos-arm.deb
+Size: 3232478
+MD5sum: 8baea1ccdaaefea398c397d0c990d354
+SHA1: 35da2a5b25ebfa27f12dafc2d8d9234cfc5b026d
+SHA256: ba7d57bbbfa991a5c98e72dbc83b018b1e43099b3485fa080f1158034785d066
+Section: 插件
+Priority: optional
+Description: App Store应用降级，支持解除200M下载限制
+Author: CokePokes
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: AppStore++ 降级神器
+Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+
 Package: com.0xkuj.3dappversionspoofer
 Version: 2.1.1
 Architecture: iphoneos-arm
@@ -240,6 +259,29 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cydia
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>= 12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: debs/cydia_0.0.1_iphoneos-arm.deb
+Size: 1525874
+MD5sum: 81b12e76a2397f03b6200636d903d095
+SHA1: df025d0801908ba9619c3d7ee3938587a93cf469
+SHA256: 60b1a73ff9eefb05f50916c8e4e2ba455a4e14bbeeab37642e328b39484a31a8
+Section: Packaging
+Priority: important
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
 
 Package: ellekit
 Version: 1.2
