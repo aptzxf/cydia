@@ -191,23 +191,6 @@ Tag: role::developer
 Author: jjolano
 Name: RootBridge Framework
 
-Package: me.jjolano.hkmodule.substrate
-Version: 1.0.8
-Architecture: iphoneos-arm
-Maintainer: jjolano
-Installed-Size: 284
-Pre-Depends: me.jjolano.fmwk.hookkit
-Depends: mobilesubstrate
-Filename: debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm.deb
-Size: 5806
-MD5sum: 2ed9fc5a3064fea97078a4b8a8b712a8
-SHA1: 9ad57d5cb56e5afd0ee89833c999b3846165c0ef
-SHA256: dceca38abeae52c86a340be72805dc652884dd461169211ef84551a5d7858cce
-Section: HookKit (Modules)
-Description: This module provides the Cydia Substrate API for HookKit Framework.
-Author: jjolano
-Name: HookKit Module (Cydia Substrate)
-
 Package: me.jjolano.shadow
 Version: 2.0.20
 Architecture: iphoneos-arm
