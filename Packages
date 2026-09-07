@@ -110,27 +110,6 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: AppsManager 应用数据管理【破解版】
 Sponsor: Ant 蚂蚁源 <https://apt.cydia.love/>
 
-Package: com.cydia.love.appsyncunified10
-Version: 112.0
-Architecture: iphoneos-arm
-Maintainer: Ant 蚂蚁源 <admin@cydia.love>
-Installed-Size: 636
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/com.cydia.love.appsyncunified10_112.0_iphoneos-arm.deb
-Size: 50214
-MD5sum: 4043af6b5aa971e295e489e26411627d
-SHA1: 0b8d0a7a47a5baaa2ea6153f704c08f204f40fe7
-SHA256: eb0e043c8e453d0cf703554e494ab0ea479c9426e64ff82d57742a4c50003e35
-Section: 应用插件
-Description: 关闭IOSApp签名 检查装和谐软件必备
-Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: AppSync Unified 关闭签名
-Sponsor: Ant 蚂蚁源 <https://apt.cydia.love/>
-
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm
