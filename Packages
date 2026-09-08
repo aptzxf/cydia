@@ -91,27 +91,6 @@ Description: A tweak to add app spoofing capabilities right from your 3D menu an
 Author: 0xkuj
 Name: 3DAppVersionSpoofer
 
-Package: com.bi8abo.dingtalk
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 405
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.bi8abo.dingtalk_1.0.3_iphoneos-arm64.deb
-Size: 60868
-MD5sum: 83b014417bf704019ddfa3e10687e8f4
-SHA1: 17a2bb38df1d4e704415f855235b73e4e0c0cd4a
-SHA256: 7b7551fbd6cbc0dc7da777957b7dd920cc0898e37555ebeb3cdc18b6d1487267
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dingtalkassistantDp
-Description: 支持位置、WIFI、拍照打卡！问题反馈微信：Bi8_aBo
-Tag: purpose::extension
-Author: Bi8_aBo <2950207095@qq.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dingtalkassistantDp
-Dev: bi8abo
-Name: 钉钉助手-Rootless
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.brend0n.accdemo
 Version: 0.2.5
 Architecture: iphoneos-arm
