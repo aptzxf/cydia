@@ -423,24 +423,6 @@ Author: jjolano
 Name: RootBridge Framework
 
 Package: me.jjolano.hkmodule.fishhook
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 172
-Pre-Depends: me.jjolano.fmwk.hookkit
-Filename: debs/me.jjolano.hkmodule.fishhook_1.0.7_iphoneos-arm64.deb
-Size: 6466
-MD5sum: 0c00e5592518ba2f6f8e848665ddb0f5
-SHA1: 894ef38ad5c88cb658a51b4cf7233535a081abd9
-SHA256: 75e950beb402115392c51e39f651f1c1bcce3a84373ef706effcfc3a9ac98ed5
-Section: 插件依赖
-Description: This module provides fishhook library support for HookKit Framework.
-Author: jjolano
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: HookKit Module (fishhook)屏蔽越狱插件依赖
-Sponsor: 搬运工
-
-Package: me.jjolano.hkmodule.fishhook
 Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: jjolano
