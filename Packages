@@ -440,6 +440,22 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: HookKit Module (fishhook)屏蔽越狱插件依赖
 Sponsor: 搬运工
 
+Package: me.jjolano.hkmodule.fishhook
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 172
+Pre-Depends: me.jjolano.fmwk.hookkit
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm64.deb
+Size: 6710
+MD5sum: a095cd95ccd9cbcb761f2b04f377c07b
+SHA1: d8c159eeef85a5486cc1dadcb6646f335260adfc
+SHA256: 0a19f83a87081e7b992481ceaf81ab194f61cc7863bf43f3887aaeb77cd5de4e
+Section: HookKit (Modules)
+Description: This module provides fishhook library support for HookKit Framework.
+Author: jjolano
+Name: HookKit Module (fishhook)
+
 Package: me.jjolano.hkmodule.substrate
 Version: 1.0.8
 Architecture: iphoneos-arm
