@@ -129,20 +129,6 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: AppsManager 应用数据管理【破解版】
 Sponsor: Ant 蚂蚁源 <https://apt.cydia.love/>
 
-Package: com.gt.dazhongcx-tweakthj
-Version: 0.0.1-81
-Architecture: iphoneos-arm64
-Installed-Size: 2176
-Depends: ellekit, firmware (>=15.0)
-Filename: debs/com.gt.dazhongcx-tweak_0.0.1-81_iphoneos-arm64.deb
-Size: 731552
-MD5sum: 16afe2f3d657b405c1ed46d602ef8de3
-SHA1: c6952ce6b33f62dbd40eb28ad3a47c0f8c29298b
-SHA256: aaf2662201f72c145f634fe2e279ef9d016129486f11fc3ce402dac023da140f
-Section: Tweaks
-Description: 630
-Name: 巨魔大众
-
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm
