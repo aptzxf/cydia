@@ -129,6 +129,23 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: AppsManager 应用数据管理【破解版】
 Sponsor: Ant 蚂蚁源 <https://apt.cydia.love/>
 
+Package: com.cydia.love.fakeclockup12
+Version: 0.5.a12
+Architecture: iphoneos-arm
+Maintainer: Ant 蚂蚁源™ <admin@cydia.love>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cydia.love.fakeclockup12_0.5.a12_iphoneos-arm.deb
+Size: 19304
+MD5sum: 78588e98679ed17d05d7b5b80ab1f0ce
+SHA1: d081e4896c650e28a8a751255e1bbea59200b48e
+SHA256: 9c1033ea36951914bf36164ac152e5b933496426af9ed39f8a48b2fd995b1986
+Section: 应用插件
+Description: 加速界面转换动画
+Author: novi <novi.mad@gmail.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: FakeClockUp12 系统加速器
+Sponsor: Ant 蚂蚁源 <http://apt.cydia.love/>
+
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm
