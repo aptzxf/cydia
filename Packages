@@ -148,15 +148,15 @@ Sponsor: Ant 蚂蚁源 <http://apt.cydia.love/>
 
 Package: com.opa334.altlist
 Version: 1.0.11
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 305
+Installed-Size: 256
 Depends: firmware (>= 7.0)
-Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
-Size: 47212
-MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
-SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
-SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26942
+MD5sum: 4b20028127ee97b886d5a6463997af7a
+SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
+SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
@@ -169,15 +169,15 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.altlist
 Version: 1.0.11
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 256
+Installed-Size: 305
 Depends: firmware (>= 7.0)
-Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
-Size: 26942
-MD5sum: 4b20028127ee97b886d5a6463997af7a
-SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
-SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
+Size: 47212
+MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
+SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
+SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
@@ -214,28 +214,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.6-4
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 472
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
-Size: 28364
-MD5sum: e4674a95f9de0a841c75b76e7471d315
-SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
-SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Description: Securely extend the sandbox of system processes and user applications
-Tag: purpose::extension, role::developer
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Dev: opa334
-Name: libSandy
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.opa334.libsandy
-Version: 1.1.6-4
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 416
@@ -256,21 +234,27 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.opa334.trollstorelite
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: opa334
-Installed-Size: 8140
-Depends: ldid
-Filename: debs/TrollStoreLite_2.1.1_rootless_iphoneos-arm64.deb
-Size: 2217542
-MD5sum: 724020448579889e91fe6d66981cbc0e
-SHA1: 1bc82c21208f04a0dbe0f345cb0f45f935c928a2
-SHA256: 78914593617689038aca10aebe2933473e7e2ed66ab10cc19f6ebb29e8080095
-Section: Applications
-Description: TrollStore for jailbroken iOS
-Author: opa334
-Name: TrollStore Lite
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 472
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
+Size: 28364
+MD5sum: e4674a95f9de0a841c75b76e7471d315
+SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
+SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cydia
 Version: 0.0.1
@@ -354,23 +338,6 @@ Name: HookKit Framework (Rootless)
 
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.15
-Architecture: iphoneos-arm
-Maintainer: jjolano
-Installed-Size: 284
-Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
-Filename: debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm.deb
-Size: 24444
-MD5sum: ff86866f47a3be3f8d9bb6c4f65b094d
-SHA1: 8db0f2d7b7948495c142d82ff5bbbd9e55e92ed8
-SHA256: 8c3cbbb8e544b037841071d4eb8d3d4c72aefa79ab46efd6689d4419a7c49db7
-Section: Development
-Description: An iOS developer framework for unified hooking methods.
-Tag: role::developer
-Author: jjolano
-Name: HookKit Framework
-
-Package: me.jjolano.fmwk.hookkit
-Version: 1.0.15
 Architecture: iphoneos-arm64
 Maintainer: jjolano
 Installed-Size: 172
@@ -386,22 +353,22 @@ Tag: role::developer
 Author: jjolano
 Name: HookKit Framework
 
-Package: me.jjolano.fmwk.modulous
-Version: 1.0.8
-Architecture: iphoneos-arm64
+Package: me.jjolano.fmwk.hookkit
+Version: 1.0.15
+Architecture: iphoneos-arm
 Maintainer: jjolano
-Installed-Size: 168
-Depends: firmware (>= 8.0)
-Filename: debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64.deb
-Size: 5908
-MD5sum: be3e1e00ef1270e30de6f0b5933af9e8
-SHA1: e91235a0042fe54197170090d2bbdadc7ad68ed8
-SHA256: a26df304e309c96c3d6e120d46f2d056f90d3d263588cbc422dd0b83d7f4d6f4
+Installed-Size: 284
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm.deb
+Size: 24444
+MD5sum: ff86866f47a3be3f8d9bb6c4f65b094d
+SHA1: 8db0f2d7b7948495c142d82ff5bbbd9e55e92ed8
+SHA256: 8c3cbbb8e544b037841071d4eb8d3d4c72aefa79ab46efd6689d4419a7c49db7
 Section: Development
-Description: An iOS developer framework for modular software.
+Description: An iOS developer framework for unified hooking methods.
 Tag: role::developer
 Author: jjolano
-Name: Modulous Framework
+Name: HookKit Framework
 
 Package: me.jjolano.fmwk.modulous
 Version: 1.0.8
@@ -414,6 +381,23 @@ Size: 10154
 MD5sum: ef622a803a599d116d2cd4c44c3d7b84
 SHA1: 610853a3db02a5d6a4331c8bb46716e073fe1ddd
 SHA256: c60d201ee39e9e5d0f7e3a827adb53a2e3d01cfc6945fb138738eb7a1391e4db
+Section: Development
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Author: jjolano
+Name: Modulous Framework
+
+Package: me.jjolano.fmwk.modulous
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm64.deb
+Size: 5908
+MD5sum: be3e1e00ef1270e30de6f0b5933af9e8
+SHA1: e91235a0042fe54197170090d2bbdadc7ad68ed8
+SHA256: a26df304e309c96c3d6e120d46f2d056f90d3d263588cbc422dd0b83d7f4d6f4
 Section: Development
 Description: An iOS developer framework for modular software.
 Tag: role::developer
