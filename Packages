@@ -568,6 +568,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preference
 Dev: dhinakg
 Name: PreferenceLoader
 
+Package: preferenceloader
+Version: 3.0.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_3.0.3_iphoneos-arm.deb
+Size: 16352
+MD5sum: 1800137953e1523798f8fe4ce5fa2c5a
+SHA1: 53ad8ffcb2769c43814cb699f40f0d0ee0b8e39c
+SHA256: 5c592ff319fad961cd87f7ddd309409f2a004de129c4dc8500c64391dd48a00f
+Section: System
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Dev: dustinhowett
+Name: PreferenceLoader
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
+
 Package: ws.hbang.common
 Version: 1.17.1
 Architecture: iphoneos-arm
