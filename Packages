@@ -1,26 +1,5 @@
 Package: ai.akemi.appsyncunified
 Version: 116.0
-Architecture: iphoneos-arm64
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 668
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
-Size: 49472
-MD5sum: d6a31911e878b83e47c6525fa29ecef1
-SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
-SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
-
-Package: ai.akemi.appsyncunified
-Version: 116.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 636
@@ -33,6 +12,27 @@ Size: 51658
 MD5sum: 536009a11dad57e48a5563224eaffaff
 SHA1: e0fa412cb3c26718887edd834804c88909297079
 SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 668
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 49472
+MD5sum: d6a31911e878b83e47c6525fa29ecef1
+SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
+SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -148,15 +148,15 @@ Sponsor: Ant 蚂蚁源 <http://apt.cydia.love/>
 
 Package: com.opa334.altlist
 Version: 1.0.11
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 305
+Installed-Size: 256
 Depends: firmware (>= 7.0)
-Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
-Size: 47212
-MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
-SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
-SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26942
+MD5sum: 4b20028127ee97b886d5a6463997af7a
+SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
+SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
@@ -169,15 +169,15 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.altlist
 Version: 1.0.11
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 256
+Installed-Size: 305
 Depends: firmware (>= 7.0)
-Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
-Size: 26942
-MD5sum: 4b20028127ee97b886d5a6463997af7a
-SHA1: 7ea2fe43f91990021abca2fa89d8d6faf35a5d97
-SHA256: 26718f617288f93b91f961d8a363d04c11d295f0de76acda4f5df057a5189975
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
+Size: 47212
+MD5sum: b2dc2a7d981c7e82d724b4b4649e9850
+SHA1: 678f956bc11bd47067a25e46c0ef9481f18052e1
+SHA256: 9527dd050119175cd6e1062a3fe965d4a0359bd5b657148eb07cd59bd524dfdc
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Description: A modern AppList alternative
@@ -214,16 +214,16 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.6-4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 472
+Installed-Size: 416
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
-Size: 28364
-MD5sum: e4674a95f9de0a841c75b76e7471d315
-SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
-SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18296
+MD5sum: 1eac344c72efdaab36ac5a47ec5274f3
+SHA1: 32112333b13618e680234cc5b4f4b2b37aa6d33d
+SHA256: 5af8fdadfdb24e90929dc20031bd8e5d96f8c4e8b9f074977d8d10180e7827d7
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Description: Securely extend the sandbox of system processes and user applications
@@ -236,16 +236,16 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.6-4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 416
+Installed-Size: 472
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
-Size: 18296
-MD5sum: 1eac344c72efdaab36ac5a47ec5274f3
-SHA1: 32112333b13618e680234cc5b4f4b2b37aa6d33d
-SHA256: 5af8fdadfdb24e90929dc20031bd8e5d96f8c4e8b9f074977d8d10180e7827d7
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
+Size: 28364
+MD5sum: e4674a95f9de0a841c75b76e7471d315
+SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
+SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Description: Securely extend the sandbox of system processes and user applications
@@ -406,23 +406,6 @@ Name: Modulous Framework
 
 Package: me.jjolano.fmwk.rootbridge
 Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Installed-Size: 168
-Depends: firmware (>= 8.0)
-Filename: debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64.deb
-Size: 3806
-MD5sum: 19db35ce72d9e55c03313acbabeb7a33
-SHA1: 7c1fbeee2a6157f89e1c7c9f91f4367e76743054
-SHA256: f62edb02a1edd921c132a5fa119062e3da5e3d4dd73a892f3e33b18067fc0c9e
-Section: Development
-Description: An iOS developer framework for rootless tweak development.
-Tag: role::developer
-Author: jjolano
-Name: RootBridge Framework
-
-Package: me.jjolano.fmwk.rootbridge
-Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 280
@@ -432,6 +415,23 @@ Size: 5942
 MD5sum: 55a048eb33aafb6f3a7b792b7184d904
 SHA1: b778d0065f8f6ed6c9abff8838190d3df9824b04
 SHA256: 0bec075deff352772f5d24098835f746e89e9b5a2392d0f7e699dd5d0f48ebae
+Section: Development
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Author: jjolano
+Name: RootBridge Framework
+
+Package: me.jjolano.fmwk.rootbridge
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm64.deb
+Size: 3806
+MD5sum: 19db35ce72d9e55c03313acbabeb7a33
+SHA1: 7c1fbeee2a6157f89e1c7c9f91f4367e76743054
+SHA256: f62edb02a1edd921c132a5fa119062e3da5e3d4dd73a892f3e33b18067fc0c9e
 Section: Development
 Description: An iOS developer framework for rootless tweak development.
 Tag: role::developer
@@ -506,28 +506,6 @@ Name: Shadow
 
 Package: me.jjolano.shadow
 Version: 3.7.6
-Architecture: iphoneos-arm
-Maintainer: jjolano
-Installed-Size: 1428
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
-Replaces: me.jjolano.shadow.beta
-Provides: me.jjolano.shadow.beta
-Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
-Size: 164872
-MD5sum: d358e346e3c7d5530ca2498fddff2e4d
-SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
-SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
-Section: System
-Description: A modern jailbreak detection bypass.
-Author: jjolano
-Name: Shadow
-
-Package: me.jjolano.shadow
-Version: 3.7.6
 Architecture: iphoneos-arm64
 Maintainer: jjolano
 Installed-Size: 1076
@@ -543,6 +521,28 @@ Size: 100938
 MD5sum: d5d9e73e6fb80918eb95772361f123be
 SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
 SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 1428
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
+Size: 164872
+MD5sum: d358e346e3c7d5530ca2498fddff2e4d
+SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
+SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
 Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
