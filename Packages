@@ -586,24 +586,6 @@ Dev: dustinhowett
 Name: PreferenceLoader
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
 
-Package: topme.ios.fakegps
-Version: 4.0.1.5
-Architecture: iphoneos-arm
-Maintainer: suifeng
-Installed-Size: 4583
-Depends: firmware (>= 12.0), mobilesubstrate
-Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Replaces: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Filename: debs/Didi_4.0.1.5_iphoneos-arm (1).deb
-Size: 4269344
-MD5sum: 69645a433bfdc71148aef7c2de17442c
-SHA1: fe8c4b32589447c01a33e985080232fa5d13d6ab
-SHA256: f51d1979349e30904bc351553969bae6575eb84a6e09155ac8a447053f075b12
-Section: Utilities
-Description: 滴滴。
-Author: suifeng
-Name: didi
-
 Package: ws.hbang.common
 Version: 1.17.1
 Architecture: iphoneos-arm
