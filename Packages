@@ -214,6 +214,28 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.6-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 472
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
+Size: 28364
+MD5sum: e4674a95f9de0a841c75b76e7471d315
+SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
+SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
 Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 416
@@ -234,27 +256,20 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.opa334.libsandy
-Version: 1.1.6-4
+Package: com.zhou.ddkiller
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 472
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm.deb
-Size: 28364
-MD5sum: e4674a95f9de0a841c75b76e7471d315
-SHA1: 95fb234bc3d2f4f1963134a23b5a076999d419cf
-SHA256: a21ade1fbfc30e85b02f91bfa7d09401dfd91e5843389fd1a809c3da690d45c4
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Description: Securely extend the sandbox of system processes and user applications
-Tag: purpose::extension, role::developer
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Dev: opa334
-Name: libSandy
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: Local Package Builder
+Depends: mobilesubstrate
+Filename: debs/zhou_1.0.0_iphoneos-arm.deb
+Size: 587294
+MD5sum: f0f7108285b6d16d77d04c826851bb7f
+SHA1: 0394e548fcb05e7cfa73451c4330976e783ae43f
+SHA256: 259f70b235890447451da0722804602c876276f78fa26117875defcafdb6ad23
+Section: Tweaks
+Description: Rootful injection package for DD_Killer and its companion library
+Author: Local Package Builder
+Name: DD Killer Bundle
 
 Package: cydia
 Version: 0.0.1
@@ -506,28 +521,6 @@ Name: Shadow
 
 Package: me.jjolano.shadow
 Version: 3.7.6
-Architecture: iphoneos-arm64
-Maintainer: jjolano
-Installed-Size: 1076
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
-Replaces: me.jjolano.shadow.beta
-Provides: me.jjolano.shadow.beta
-Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm64.deb
-Size: 100938
-MD5sum: d5d9e73e6fb80918eb95772361f123be
-SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
-SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
-Section: System
-Description: A modern jailbreak detection bypass.
-Author: jjolano
-Name: Shadow
-
-Package: me.jjolano.shadow
-Version: 3.7.6
 Architecture: iphoneos-arm
 Maintainer: jjolano
 Installed-Size: 1428
@@ -543,6 +536,28 @@ Size: 164872
 MD5sum: d358e346e3c7d5530ca2498fddff2e4d
 SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
 SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 1076
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm64.deb
+Size: 100938
+MD5sum: d5d9e73e6fb80918eb95772361f123be
+SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
+SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
 Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
