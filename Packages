@@ -256,21 +256,6 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.zhou.ddkiller
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Local Package Builder
-Depends: mobilesubstrate
-Filename: debs/DD_Ki1.0.0_iphoneos-arm.deb
-Size: 358080
-MD5sum: 10b33cae2f2453d2597a9d3edf65f6c8
-SHA1: 4b6510f5fcf34aba40ada79dcdc3176037a203e5
-SHA256: 3725cbddef0fd6a32db1e2a825d3e55c8f078b6643a0703251f7b18cdd1655fb
-Section: Tweaks
-Description: Rootful injection package for DD_Killer and its companion library
-Author: Local Package Builder
-Name: DD Killer Bundle
-
 Package: cydia
 Version: 0.0.1
 Architecture: iphoneos-arm
