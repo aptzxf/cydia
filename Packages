@@ -214,6 +214,28 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.libsandy
 Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 416
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18296
+MD5sum: 1eac344c72efdaab36ac5a47ec5274f3
+SHA1: 32112333b13618e680234cc5b4f4b2b37aa6d33d
+SHA256: 5af8fdadfdb24e90929dc20031bd8e5d96f8c4e8b9f074977d8d10180e7827d7
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: Securely extend the sandbox of system processes and user applications
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 472
@@ -234,27 +256,20 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.opa334.libsandy
-Version: 1.1.6-4
+Package: com.user.xinchuzu-rootless
+Version: 1.0.2
 Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 416
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
-Size: 18296
-MD5sum: 1eac344c72efdaab36ac5a47ec5274f3
-SHA1: 32112333b13618e680234cc5b4f4b2b37aa6d33d
-SHA256: 5af8fdadfdb24e90929dc20031bd8e5d96f8c4e8b9f074977d8d10180e7827d7
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Description: Securely extend the sandbox of system processes and user applications
-Tag: purpose::extension, role::developer
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
-Dev: opa334
-Name: libSandy
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: Local User
+Filename: debs/taiji-ju_1.0.2_iphoneos-arm64.deb
+Size: 4551120
+MD5sum: d3f912e91e6f024db16692f5c1198a94
+SHA1: e329cd72a3a353ee08900e981ec11bd24f502126
+SHA256: 83380ba3fd5170a38f7c3f5b60f5383c6449fe82b94311df49c8ce830e9e9d11
+Section: Tweaks
+Priority: optional
+Description: 太极-聚无根越狱插件
+Author: Local User
+Name: 太极-聚
 
 Package: com.zhou.ddkiller
 Version: 1.0.0
@@ -521,28 +536,6 @@ Name: Shadow
 
 Package: me.jjolano.shadow
 Version: 3.7.6
-Architecture: iphoneos-arm
-Maintainer: jjolano
-Installed-Size: 1428
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
-Replaces: me.jjolano.shadow.beta
-Provides: me.jjolano.shadow.beta
-Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
-Size: 164872
-MD5sum: d358e346e3c7d5530ca2498fddff2e4d
-SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
-SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
-Section: System
-Description: A modern jailbreak detection bypass.
-Author: jjolano
-Name: Shadow
-
-Package: me.jjolano.shadow
-Version: 3.7.6
 Architecture: iphoneos-arm64
 Maintainer: jjolano
 Installed-Size: 1076
@@ -558,6 +551,28 @@ Size: 100938
 MD5sum: d5d9e73e6fb80918eb95772361f123be
 SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
 SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 1428
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: debs/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
+Size: 164872
+MD5sum: d358e346e3c7d5530ca2498fddff2e4d
+SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
+SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
 Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
@@ -600,24 +615,6 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 Dev: dustinhowett
 Name: PreferenceLoader
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/preferenceloader.json
-
-Package: topme.ios.fakegps
-Version: 4.0.1.5
-Architecture: iphoneos-arm
-Maintainer: suifeng
-Installed-Size: 4583
-Depends: firmware (>= 12.0), mobilesubstrate
-Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Replaces: cn.tinyapps.xgps, cn.tinyapps.location360, app.weiphone.tinyapps.location360pro, cn.tinyapps.xgpslite, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.xgpspro, apt.tinyapps.location360pro, me.liuming.locationhelper, me.liuming.locationexpert, net.85819.ios.otrlocation, com.abcydia.otrlocation
-Filename: debs/Didi_4.0.1.5_iphoneos-arm (1).deb
-Size: 4269344
-MD5sum: 69645a433bfdc71148aef7c2de17442c
-SHA1: fe8c4b32589447c01a33e985080232fa5d13d6ab
-SHA256: f51d1979349e30904bc351553969bae6575eb84a6e09155ac8a447053f075b12
-Section: Utilities
-Description: 滴滴。
-Author: suifeng
-Name: didi
 
 Package: ws.hbang.common
 Version: 1.17.1
